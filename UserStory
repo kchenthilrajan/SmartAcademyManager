@@ -1,0 +1,49 @@
++-------+-----------------------------------------------------------------------------------+----------+
+|   #   |                                    User Story                                     | Priority |
++-------+-----------------------------------------------------------------------------------+----------+
+|       | Staff                                                                             |        1 |
+| BR_01 | Ability for the staff to select the topics covered for the session                |        1 |
+| BR_02 | Ability to add special comments about students for the session                    |        2 |
+| BR_04 | Ability for the staff to select attendance for the day/session                    |        2 |
+| BR_06 | Ability to evaluate session via excercices                                        |        3 |
+| BR_07 | Ability for the staff to view the activities for the day                          |        2 |
+| BR_08 | Ability for the teacher to assign homework for the day/week/month                 |        2 |
+|       | School-Management                                                                 |        1 |
+| BR_05 | Ability for the school to send general alers/reminders                            |        2 |
+| BR_11 | Ability to schedule and send appointments for Parents and teachers meeting        |        2 |
+| BR_12 | Ability to collaborate and manage staff tasks by HOD/Head Master                  |        2 |
+| BR_13 | Ability to collaborate school events like sports day, annaual day, etc            |        3 |
+| BR_14 | Ability to automatically create and manage student groups                         |        3 |
+| BR_15 | Ability to generate exam schedule and assign tasks to staff for execution         |        2 |
+| BR_16 | Abilirt to manage grade system and generate mark sheets                           |        2 |
+| BR_17 | Ability to get electronic acceptance from parents for Mark sheets and assignments |        2 |
+|       | Parents                                                                           |        1 |
+| BR_03 | Parents to get daily email update of their children                               |        1 |
+| BR_09 | Parents to get their children homework list in daily email                        |        2 |
+| BR_10 | Parents to get a consolidated email of their children                             |        4 |
++-------+-----------------------------------------------------------------------------------+----------+
++-------+---------------------------------------------------------------+--------+
+|   #   |                    Functional Requirement                     | BR Map |
++-------+---------------------------------------------------------------+--------+
+| FR_1  | Show topics for the session                                   | BR_1   |
+| FR_2  | Show topics left in previous session                          | BR_1   |
+| FR_3  | Allow staff to mark completion status                         | BR_1   |
+| FR_4  | Enable staff to add special comments                          | BR_2   |
+| FR_5  | Allow staff to associate comments against students            | BR_2   |
+| FR_6  | A nightly job to send email communication to parents          | BR_3   |
+| FR_7  | Daily status email with the following details                 | BR_3   |
+|       | Topics covered per subject for the day                        |        |
+|       | Special comments if any                                       |        |
+| FR_8  | Show students in sequence to mark attendance                  | BR_4   |
+| FR_9  | Ability to show quizes related to topics covered in a session | BR_6   |
+| FR_10 | Ability to record notes about student performance             | BR_6   |
+| FR_11 |                                                               | BR_15  |
++-------+---------------------------------------------------------------+--------+
++-------+------------------------------------------------------------------+-------------+
+|   #   |                          Configuration                           | Config Type |
++-------+------------------------------------------------------------------+-------------+
+| CNF_1 | Attendence frequency - Per Day/Per Session                       | Rule        |
+| CNF_2 | Parents to set update frequency - Daily/Weekly/Monthly/Quarterly | User Config |
++-------+------------------------------------------------------------------+-------------+
+Table created using:
+http://www.sensefulsolutions.com/2010/10/format-text-as-table.html
